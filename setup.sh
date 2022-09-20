@@ -29,13 +29,3 @@ git clone https://github.com/dileepsa/mac-setup.git
 cd mac-setup
 
 source install.sh
-
-cd ~
-
-git clone https://github.com/dileepsa/dotfiles.git
-
-cd dotfiles
-
-source setup.sh
-
-cd ..
