@@ -3,7 +3,7 @@
 
 brew tap teamookla/speedtest
 
-coreUtils=(
+core_utils=(
     tree
     bat
     node
@@ -11,10 +11,10 @@ coreUtils=(
     ack
     autojump
     speedtest
-    openjdk@11
+    openjdk@8
 )
 
-for i in "${coreUtils[@]}"; do 
+for i in "${core_utils[@]}"; do 
     echo "installing" "$i";
     brew install "$i" 
 done

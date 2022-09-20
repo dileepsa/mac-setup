@@ -24,7 +24,7 @@ brew upgrade
 
 brew install git
 
-git clone https://github.com/luckyganesh/mac-setup.git
+git clone https://github.com/dileepsa/mac-setup.git
 
 cd mac-setup
 
@@ -32,7 +32,7 @@ source install.sh
 
 cd ~
 
-git clone https://github.com/luckyganesh/dotfiles.git
+git clone https://github.com/dileepsa/dotfiles.git
 
 cd dotfiles
 
